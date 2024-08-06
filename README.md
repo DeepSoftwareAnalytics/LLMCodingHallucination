@@ -1,6 +1,12 @@
 # LLM Hallucinations in Practical Code Generation:
 Phenomena, Mechanism, and Mitigation
 
+**Annotation:** The data that is used for annotated in our study is stored in the `annotation` folder.
+
+---
+
+
+
 **Datasets:** To begin, download the evaluation datasets from [datasets](https://drive.google.com/file/d/1md51Y6wm2_5cbDCFSs-F4CUfMwhzsz9W/view?usp=drive_link) and extract them into the `/dataset` folder. In this experiment, we use the CoderEval dataset.
 
 **Repository:** To begin, download the practical repositories from CoderEval and extract them into the `/repos` folder and `/CoderEval/repos`. 
@@ -8,6 +14,8 @@ Phenomena, Mechanism, and Mitigation
 **Models:** In the mitigation experiment, we employ CodeGen, Pangu-α, ChatGPT, DeepSeekCoder, CodeLlama, and StarCoder2. Among the open-source models, we obtain the model through [HuggingFace](https://huggingface.co/)  and conduct experiments. The closed-source model ChatGPT, which we experiment with using the [OpenAI](https://openai.com/) API interface. 
 
 **Experimental Results:**  The experimental results are shown in the `/testing-CoderEval/model_name` folder. The experimental results in the file ` prediction_r0.jsonl `are based on the Raw method, and the experimental results in the file ` prediction_r1.jsonl ` are based on the RAG-based method.
+
+
 
 ---
 
