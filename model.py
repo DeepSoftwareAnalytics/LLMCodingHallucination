@@ -118,7 +118,7 @@ class Generator:
     def generate(
             self,
             inputs: List[dict],
-            max_len=512,
+            max_len=192,
             repetition_penalty=1.0 
         ):
         if self.model.config.is_encoder_decoder:
