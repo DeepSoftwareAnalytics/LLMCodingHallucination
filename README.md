@@ -36,7 +36,7 @@ In the mitigation experiment section of our paper, we use two methods: Raw metho
 
 python eval_original.py \
     --model=codegen \ 
-    --max_len=192 \
+    --max_len=1024 \
     --batch=4 
 ```
 
